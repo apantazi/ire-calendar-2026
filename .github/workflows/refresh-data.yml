@@ -1,0 +1,169 @@
+name: Refresh Schedule Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_embeddings:
+        description: Rebuild embeddings even if the schedule fingerprint is unchanged
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    # GitHub schedules can be delayed at the top of the hour, so use an offset.
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch latest Sessionize schedule
+        run: |
+          curl -fsSL \
+            -H "accept: application/json" \
+            "https://2026-ire-conference.sessionize.com/api/schedule" \
+            -o public/data/ire26-schedule.json
+
+      - name: Check whether embeddings need refresh
+        id: refresh_check
+        shell: bash
+        env:
+          FORCE_EMBEDDINGS: ${{ github.event.inputs.force_embeddings || 'false' }}
+        run: |
+          old_fingerprint="$(node -e "const fs=require('fs'); const p=JSON.parse(fs.readFileSync('public/data/ire26-session-embeddings.json','utf8')); console.log(p.scheduleFingerprint || '')")"
+          new_fingerprint="$(node --input-type=module <<'NODE'
+          import fs from "node:fs";
+          import { getScheduleEmbeddingFingerprint } from "./src/lib/embeddings.js";
+          import { normalizeSchedule } from "./src/lib/schedule.js";
+          const raw = JSON.parse(fs.readFileSync("public/data/ire26-schedule.json", "utf8"));
+          const normalized = normalizeSchedule(raw);
+          console.log(getScheduleEmbeddingFingerprint(normalized.sessions));
+          NODE
+          )"
+
+          echo "old_fingerprint=${old_fingerprint}"
+          echo "new_fingerprint=${new_fingerprint}"
+          echo "force_embeddings=${FORCE_EMBEDDINGS}"
+
+          if [[ "${old_fingerprint}" != "${new_fingerprint}" || "${FORCE_EMBEDDINGS}" == "true" ]]; then
+            echo "needs_refresh=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "needs_refresh=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Cache Qwen model files
+        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        uses: actions/cache@v4
+        with:
+          path: .hf-cache
+          key: tei-qwen3-embedding-0-6b-${{ runner.os }}-v1
+
+      - name: Start local Qwen embedding server
+        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        run: |
+          mkdir -p .hf-cache
+          docker run -d --rm \
+            --name qwen-tei \
+            -p 8080:80 \
+            -v "${{ github.workspace }}/.hf-cache:/data" \
+            --pull always \
+            ghcr.io/huggingface/text-embeddings-inference:cpu-1.7.4 \
+            --revision refs/pr/27 \
+            --pooling last-token \
+            --max-batch-tokens 512 \
+            --model-id Qwen/Qwen3-Embedding-0.6B
+
+      - name: Wait for Qwen embedding server
+        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        run: |
+          for attempt in {1..120}; do
+            if curl -fsS \
+              -X POST "http://127.0.0.1:8080/embed" \
+              -H "content-type: application/json" \
+              -d '{"inputs":"test"}' >/dev/null; then
+              echo "Qwen embedding server is ready."
+              exit 0
+            fi
+            sleep 5
+          done
+
+          docker logs qwen-tei || true
+          exit 1
+
+      - name: Rebuild saved Qwen embeddings
+        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        env:
+          QWEN_EMBEDDING_URL: http://127.0.0.1:8080/embed
+          QWEN_EMBEDDING_FORMAT: tei
+          QWEN_EMBEDDING_MODEL: Qwen/Qwen3-Embedding-0.6B
+          QWEN_EMBEDDING_BATCH_SIZE: "1"
+          QWEN_EMBEDDING_PROGRESS: "1"
+          SCHEDULE_FILE: public/data/ire26-schedule.json
+        run: npm run build:embeddings
+
+      - name: Stop local Qwen embedding server
+        if: always() && steps.refresh_check.outputs.needs_refresh == 'true'
+        run: docker stop qwen-tei || true
+
+      - name: Test refreshed app
+        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        run: npm test
+
+      - name: Build refreshed app
+        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        run: npm run build
+
+      - name: Commit refreshed static data
+        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/ire26-schedule.json public/data/ire26-session-embeddings.json
+
+          if git diff --cached --quiet; then
+            echo "No static data changes to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Refresh IRE schedule data"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/configure-pages@v5
+        if: steps.commit.outputs.changed == 'true'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.commit.outputs.changed == 'true'
+        with:
+          path: dist
+
+      - id: deployment
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/deploy-pages@v4
+
+      - name: Report no-op refresh
+        if: steps.refresh_check.outputs.needs_refresh != 'true'
+        run: echo "Schedule fingerprint is unchanged; skipped embedding rebuild and deployment."

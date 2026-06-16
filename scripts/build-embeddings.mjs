@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -19,10 +19,11 @@ async function main() {
   }
 
   const scheduleUrl = process.env.SCHEDULE_URL || DEFAULT_SCHEDULE_URL;
+  const scheduleFile = process.env.SCHEDULE_FILE;
   const outputPath = path.resolve(repoRoot, process.env.EMBEDDINGS_OUTPUT || DEFAULT_OUTPUT_PATH);
   const maxDescriptionChars = getMaxDescriptionChars();
 
-  const rawSchedule = await fetchSchedule(scheduleUrl);
+  const { rawSchedule, scheduleSource } = await readSchedule({ scheduleUrl, scheduleFile });
   const normalized = normalizeSchedule(rawSchedule);
   const sessionsToEmbed = normalized.sessions.filter((session) => !session.isServiceSession);
   const inputs = sessionsToEmbed.map((session) => ({
@@ -37,7 +38,7 @@ async function main() {
     app: "ire-calendar-builder",
     version: 1,
     generatedAt: new Date().toISOString(),
-    scheduleUrl,
+    scheduleUrl: scheduleSource,
     scheduleFingerprint: getScheduleEmbeddingFingerprint(normalized.sessions),
     sessionCount: normalized.sessions.length,
     embeddedSessionCount: embedded.embeddings.length,
@@ -75,6 +76,22 @@ async function fetchSchedule(scheduleUrl) {
     console.log(`Retrying through local dev proxy at ${LOCAL_SCHEDULE_URL}`);
     return fetchJson(LOCAL_SCHEDULE_URL);
   }
+}
+
+async function readSchedule({ scheduleUrl, scheduleFile }) {
+  if (scheduleFile) {
+    const filePath = path.resolve(repoRoot, scheduleFile);
+    console.log(`Reading schedule from ${path.relative(repoRoot, filePath)}`);
+    return {
+      rawSchedule: JSON.parse(await readFile(filePath, "utf8")),
+      scheduleSource: path.relative(repoRoot, filePath).replaceAll("\\", "/"),
+    };
+  }
+
+  return {
+    rawSchedule: await fetchSchedule(scheduleUrl),
+    scheduleSource: scheduleUrl,
+  };
 }
 
 main().catch((error) => {

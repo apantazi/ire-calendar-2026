@@ -270,6 +270,33 @@ Common options:
 
 Because this is static hosting, `/api/schedule` is not needed and the app does not pull the live Sessionize schedule at runtime. `/api/embeddings` is also unavailable on GitHub Pages, so live semantic query search falls back to local text matching unless you wire in a separate backend. Auto Builder semantic relevance still uses the saved embeddings.
 
+## Automated Refresh
+
+GitHub Actions includes an hourly static-data refresh workflow:
+
+```text
+.github/workflows/refresh-data.yml
+```
+
+It runs at minute 17 of every hour to avoid GitHub's busiest top-of-hour schedule window. The workflow:
+
+1. Downloads the latest Sessionize schedule into `public/data/ire26-schedule.json`.
+2. Compares the new schedule fingerprint with the saved embedding cache.
+3. Starts a CPU Text Embeddings Inference container for `Qwen/Qwen3-Embedding-0.6B` only when the schedule changed.
+4. Rebuilds `public/data/ire26-session-embeddings.json`.
+5. Runs `npm test` and `npm run build`.
+6. Commits the refreshed static data.
+7. Deploys the rebuilt `dist` artifact to GitHub Pages.
+
+Manual refresh:
+
+1. Open GitHub.
+2. Go to `Actions` > `Refresh Schedule Data`.
+3. Click `Run workflow`.
+4. Set `force_embeddings` to `true` only if you want to rebuild embeddings even when the schedule has not changed.
+
+The scheduled workflow commits with `GITHUB_TOKEN`, so it deploys Pages inside the same workflow instead of relying on the separate push-triggered `Deploy` workflow.
+
 ## Verification Checklist
 
 - `npm test` passes.
