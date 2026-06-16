@@ -1,3 +1,0 @@
-cpu-1.7.4: Pulling from huggingface/text-embeddings-inference
-Digest: sha256:22eac176ead3eb7008c672123b05331347e1a86661a7f27f3f6550dbe31ff96c
-Status: Image is up to date for ghcr.io/huggingface/text-embeddings-inference:cpu-1.7.4
