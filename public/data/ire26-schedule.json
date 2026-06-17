@@ -2489,6 +2489,24 @@
       "isConfirmed": false
     },
     {
+      "id": "ff3a1c37-30c9-4423-82a0-0e04b17b21c1",
+      "title": "Life + Work Coaching",
+      "description": "Join certified coach and meditation facilitator Nicholas Whitaker for exclusive 1:1 coaching sessions just for IRE guests. In this laser-focused session, you will have the space to share what's weighing on your mind and heart, and receive compassionate coaching to help guide you to your next steps. If you've never received coaching before, this is a great, low-risk way to get some experience with it and discover what even a single coaching session can do to help move you forward. Sign up for a time slot at: http://tiny.cc/work-and-life-ire26",
+      "startsAt": "2026-06-19T10:00:00",
+      "endsAt": "2026-06-19T18:00:00",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 85694,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
       "id": "1190123",
       "title": "From classroom to newsroom: Finding your footing after school",
       "description": "Transitioning from internships and student journalism to your first real newsroom can be an exciting, and daunting, leap. In this session, four early-career journalists share the steps they took to jump-start their careers after graduation—and how you can do the same. From landing your first job to establishing yourself in a new city or beat, this session is great for recent journalism grads, current students, and those looking to pivot into journalism from other careers.",
@@ -3736,9 +3754,9 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "3ba854ea-11ef-49b4-bcce-3b8add8c2dcd",
         "940689a3-2919-4423-b5f3-ce85f0b04230",
-        "06129f81-fee3-4e1a-a1df-5a71e3243ba5"
+        "06129f81-fee3-4e1a-a1df-5a71e3243ba5",
+        "3ba854ea-11ef-49b4-bcce-3b8add8c2dcd"
       ],
       "categoryItems": [
         441467
@@ -4046,7 +4064,7 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "c21f28c0-1b2f-4775-a7e4-5ab2f7a0b472"
+        "bb20806c-1b88-4152-9845-b3006f3ceaff"
       ],
       "categoryItems": [
         441469,
@@ -5799,8 +5817,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "f47cdfba-c14d-44a7-a145-0f6f4ab954d4",
-        "ca26db8f-9234-4870-a29e-c7dcb368e9f9"
+        "ca26db8f-9234-4870-a29e-c7dcb368e9f9",
+        "dc5028cb-642f-435e-89f8-4da7910b6fbc"
       ],
       "categoryItems": [
         441467,
@@ -6275,7 +6293,8 @@
       "isPlenumSession": false,
       "speakers": [
         "42224596-31b1-42e4-a7f8-de0e2f1397d3",
-        "3505ff4d-1adf-491d-a249-cc1531406172"
+        "3505ff4d-1adf-491d-a249-cc1531406172",
+        "c21f28c0-1b2f-4775-a7e4-5ab2f7a0b472"
       ],
       "categoryItems": [
         441467
@@ -7572,7 +7591,7 @@
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        1262972
+        1255933
       ],
       "fullName": "Benét Wilson",
       "categoryItems": [],
@@ -10555,7 +10574,7 @@
       "id": "f09c3075-c506-41ca-9d12-6789c5acafb2",
       "firstName": "Jarrett",
       "lastName": "Ley",
-      "bio": "Jarrett Ley is a visual forensics reporter at The Washington Post. His reporting mobilizes open-source investigation methods alongside spatial analysis techniques honed through his prior training in architecture. He was among the team of reporters who received the  2024 Pulitzer Prize in Breaking News for coverage of the attempted assassination of Donald Trump in Butler County. ",
+      "bio": "Jarrett Ley is a visual forensics reporter at The Washington Post where he mobilizes open-source investigation methods alongside spatial analysis techniques honed through his prior training in architecture. He was among the team of reporters who received the 2024 Pulitzer Prize in Breaking News for coverage of the attempted assassination of Donald Trump in Butler County and the 2026 Emmy Award for Outstanding Investigative Coverage for the Frontline documentary Strike on Iran: The Nuclear Question.",
       "tagLine": "Visual Forensics Reporter, The Washington Post",
       "profilePicture": "https://sessionize.com/image/3a53-400o400o1-GxDbyuRxzZz471MER5L15r.jpg",
       "isTopSpeaker": false,
@@ -10564,6 +10583,11 @@
           "title": "LinkedIn",
           "url": "https://www.linkedin.com/in/jarrett-ley-0110262b",
           "linkType": "LinkedIn"
+        },
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/jarrett-ley",
+          "linkType": "Sessionize"
         }
       ],
       "sessions": [
@@ -10928,6 +10952,33 @@
         1243351
       ],
       "fullName": "Jeremy Finley",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "dc5028cb-642f-435e-89f8-4da7910b6fbc",
+      "firstName": "Jerry",
+      "lastName": "Mitchell",
+      "bio": "The stories of Jerry Mitchell have helped put four Klansmen and a serial killer behind bars as well as helping free two people from death row. He is a two-time Pulitzer Prize finalist and winner of 30+ national awards, including a $500,000 MacArthur “genius” grant. He is the author of “Race Against Time” about his pursuit of civil rights cold cases, including Medgar Evers' 1963 assassination, the Birmingham church bombing that killed four girls in 1963 and the KKK’s 1964 killings of three civil rights workers. He now leads Mississippi Today’s investigative team, which has exposed a 20-year reign of terror by deputies known as “the Goon Squad.” Six of those officers went to prison, and the series led to a major change in how the state investigates wrongdoing by officers. His team's work revealed how a Black mother of four had been imprisoned for life for a murder — a conviction contradicted by much of the evidence, including an apparent suicide note never presented to the jury.",
+      "tagLine": "Mississippi Today",
+      "profilePicture": "https://sessionize.com/image/f5fe-400o400o1-RuA8p8CmCcRRcnCDUmUegn.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Facebook",
+          "url": "https://www.facebook.com/JerryMitchellReporter",
+          "linkType": "Facebook"
+        },
+        {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/jmitchellnews/",
+          "linkType": "Instagram"
+        }
+      ],
+      "sessions": [
+        1216891
+      ],
+      "fullName": "Jerry Mitchell",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -12727,6 +12778,7 @@
       "links": [],
       "sessions": [
         1237901,
+        1262972,
         1256059
       ],
       "fullName": "Laura Kurtzberg",
@@ -13145,8 +13197,7 @@
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        1216785,
-        1216891
+        1216785
       ],
       "fullName": "Lizzie Presser",
       "categoryItems": [],
@@ -16338,6 +16389,11 @@
           "title": "Instagram",
           "url": "https://www.instagram.com/walterreports/?hl=en",
           "linkType": "Instagram"
+        },
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/walter-smith-randolph",
+          "linkType": "Sessionize"
         }
       ],
       "sessions": [
