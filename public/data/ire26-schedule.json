@@ -986,7 +986,7 @@
     },
     {
       "id": "1229828",
-      "title": "Investigate like the AP: Using Everlaw legal tools in news",
+      "title": "Finding Signal in the Noise: Using Everlaw Legal Tools for News Investigations",
       "description": "Aaron Kessler, data and investigative journalist at the Associated Press, talks about how his team uses Everlaw in document-heavy investigations.\r\n\r\nAnd see how Everlaw's document review and discovery platform can help reporters dig deeper into large document sets, understand data, surface insights, and streamline their investigations to chart a straighter path to the truth. Learn more at: https://www.everlaw.com/forgood/\r\n",
       "startsAt": "2026-06-18T11:30:00",
       "endsAt": "2026-06-18T12:30:00",
@@ -3662,7 +3662,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "3ba854ea-11ef-49b4-bcce-3b8add8c2dcd"
+        "3ba854ea-11ef-49b4-bcce-3b8add8c2dcd",
+        "a7492a6e-25f1-4617-8ac7-77707c577b4b"
       ],
       "categoryItems": [
         441467
@@ -7715,6 +7716,28 @@
         1182036
       ],
       "fullName": "Bret Schafer",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "a7492a6e-25f1-4617-8ac7-77707c577b4b",
+      "firstName": "Brian",
+      "lastName": "Carovillano",
+      "bio": "Brian Carovillano is Senior Vice President for News at Versant Media, overseeing standards, elections and editorial partnerships for MS NOW and CNBC. He previously led the standards team at the NBCUniversal News Group, including NBC News, MSNBC, CNBC, and Telemundo. Prior to NBCU, he held senior editorial roles at The Associated Press, including global managing editor, national editor and Asia-Pacific news director. Under his leadership, his teams earned top journalism honors including Pulitzer Prizes.",
+      "tagLine": "SVP, Head of Standards and Partnerships, Versant Media (MS NOW and CNBC)",
+      "profilePicture": "https://sessionize.com/image/9bfe-400o400o1-PUerrNELQnE1wR3m56SVY4.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/brian-carovillano-3775436/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        1265854
+      ],
+      "fullName": "Brian Carovillano",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -15201,7 +15224,13 @@
       "tagLine": "Elections & Investigations Reporter, Central Florida Public Media",
       "profilePicture": null,
       "isTopSpeaker": false,
-      "links": [],
+      "links": [
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/sam-stockbridge",
+          "linkType": "Sessionize"
+        }
+      ],
       "sessions": [
         1190199,
         1190229
