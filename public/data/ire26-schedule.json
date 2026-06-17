@@ -1637,7 +1637,8 @@
       "isPlenumSession": false,
       "speakers": [
         "3f80f09b-d8d4-434a-80bc-3cd092f24083",
-        "e3232586-93a8-466b-ab9f-7f2a5f448925"
+        "e3232586-93a8-466b-ab9f-7f2a5f448925",
+        "6e3dea4d-3985-477c-8f53-414a9e3e6829"
       ],
       "categoryItems": [
         441467,
@@ -14713,6 +14714,28 @@
         1238748
       ],
       "fullName": "Paroma Soni",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "6e3dea4d-3985-477c-8f53-414a9e3e6829",
+      "firstName": "Paul",
+      "lastName": "Cobler",
+      "bio": "Paul Cobler is the Tribune's economy and industry reporter, covering the socioeconomic and political forces that impact Texans’ pocketbooks and upward mobility. Before joining the Tribune, he was a politics reporter for the Houston Landing and covered Baton Rouge City Hall for The Advocate in Louisiana. Paul grew up in Victoria, Texas, and graduated from the University of Texas at Austin. His reporting has appeared in news publications across the state, including the Dallas Morning News, Austin American-Statesman and the Houston Chronicle. He is based in Austin.",
+      "tagLine": "Economy and Industry reporter at The Texas Tribune",
+      "profilePicture": "https://sessionize.com/image/6aba-400o400o1-WWYHeUb5nAPn1UBWNiEVJy.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/paul-cobler/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        1179778
+      ],
+      "fullName": "Paul Cobler",
       "categoryItems": [],
       "questionAnswers": []
     },
