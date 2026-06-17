@@ -681,7 +681,8 @@
       ],
       "categoryItems": [
         441467,
-        485397
+        485397,
+        481148
       ],
       "questionAnswers": [],
       "roomId": 81423,
@@ -972,7 +973,8 @@
       ],
       "categoryItems": [
         441467,
-        485397
+        485397,
+        481147
       ],
       "questionAnswers": [],
       "roomId": 81423,
@@ -984,7 +986,7 @@
     },
     {
       "id": "1229828",
-      "title": "Finding a Needle in the Haystack: Using Everlaw Legal Tools for News Investigations",
+      "title": "Investigate like the AP: Using Everlaw legal tools in news",
       "description": "Aaron Kessler, data and investigative journalist at the Associated Press, talks about how his team uses Everlaw in document-heavy investigations.\r\n\r\nAnd see how Everlaw's document review and discovery platform can help reporters dig deeper into large document sets, understand data, surface insights, and streamline their investigations to chart a straighter path to the truth. Learn more at: https://www.everlaw.com/forgood/\r\n",
       "startsAt": "2026-06-18T11:30:00",
       "endsAt": "2026-06-18T12:30:00",
@@ -1039,8 +1041,8 @@
     },
     {
       "id": "1180271",
-      "title": "Digging into archives",
-      "description": "Archives can be goldmines for investigations. We'll head to DC to visit the National Archives and Records Administration's Research Center to learn about its collections, which include military records, land titles, photos, maps and more.  \r\n\r\nGo here to sign up: bit.ly/IRE26archivesTrip\r\n\r\nMeet in the hotel lobby by 12:20 p.m. if you'd like to join the group. Transportation will not be provided.\r\n\r\nThis field trip will take about 2 hours, including transportation. ",
+      "title": "AT CAPACITY - Digging into archives",
+      "description": "Archives can be goldmines for investigations. We'll head to DC to visit the National Archives and Records Administration's Research Center to learn about its collections, which include military records, land titles, photos, maps and more.  \r\n\r\nMeet in the hotel lobby by 12:20 p.m. if you'd like to join the group. Transportation will not be provided.\r\n\r\nThis field trip will take about 2 hours, including transportation. ",
       "startsAt": "2026-06-18T12:20:00",
       "endsAt": "2026-06-18T13:20:00",
       "isServiceSession": false,
@@ -1312,8 +1314,8 @@
     },
     {
       "id": "1258966",
-      "title": "FOIA, AI and the future of access to federal records",
-      "description": "Artificial intelligence stands ready to impact the federal FOIA process for both government agencies and requesters. This session will examine what’s known about how federal agencies are deploying AI in their FOIA operations, how custom RAG systems can help journalists make more precise requests, and what omnipresent AI in government operations might mean for the future of public records.",
+      "title": "FOIA, AI and the future of access to public records",
+      "description": "Artificial intelligence stands ready to impact the public records process for both government agencies and requesters. This session will examine the lifecycle of a public records request and its intersection with AI, including how agencies are deploying AI in their operations, how custom RAG systems can help journalists make more precise requests, and turning unstructured PDFs into structured data. Join this interactive session to explore what omnipresent AI might mean for the future of public records.",
       "startsAt": "2026-06-18T14:30:00",
       "endsAt": "2026-06-18T15:30:00",
       "isServiceSession": false,
@@ -1750,7 +1752,7 @@
     {
       "id": "1189279",
       "title": "Finding the story: Court records",
-      "description": "In this interactive hands-on session, bring your laptop and practice with us as we show you new tools to help you analyze complex court records - especially on deadline. This hands-on session focuses primarily on two powerful analysis tools: Google Pinpoint and Draftable. We’ll also briefly discuss PACER and RECAP, bread-and-butter tools to help you locate court records across the country.  We’ll keep this session lively with fun challenges, so come hang out with us!  \r\n\r\nThis session is good for: everyone! No previous data experience is required. Attendees will need to bring their own laptops (preferably no tablets) for the training.",
+      "description": "In this interactive hands-on session, bring your laptop and practice with us as we show you new tools to help you analyze complex court records - especially on deadline. This hands-on session focuses primarily on a powerful analysis tool: Google Pinpoint.\r\n\r\n We’ll also briefly discuss PACER and RECAP, bread-and-butter tools to help you locate court records across the country.  We’ll keep this session lively with fun challenges, so come hang out with us!  \r\n\r\nThis session is good for: everyone! No previous data experience is required. Attendees will need to bring their own laptops (preferably no tablets) for the training.",
       "startsAt": "2026-06-18T15:45:00",
       "endsAt": "2026-06-18T16:45:00",
       "isServiceSession": false,
@@ -2123,7 +2125,8 @@
       "speakers": [
         "42ebd0a4-bc69-44ad-b9e7-9d0a527ada89",
         "5c6e4f54-9203-4509-bccd-850968c1b1cc",
-        "cd244abe-2a56-4b50-bdd1-8daf0663c445"
+        "cd244abe-2a56-4b50-bdd1-8daf0663c445",
+        "e47a16e8-0367-4fdb-9258-a9a0747448e9"
       ],
       "categoryItems": [
         441467,
@@ -2174,12 +2177,13 @@
       "isPlenumSession": false,
       "speakers": [
         "8ec441b9-46d0-4fff-ad6e-8b4b6e9fd81e",
-        "0e7cb798-9f22-481d-942a-143b127fdf25",
-        "bfd2a4e6-d94b-41ab-89c3-8a4b7dcb085f"
+        "bfd2a4e6-d94b-41ab-89c3-8a4b7dcb085f",
+        "2cb35915-896f-47dd-9173-452c9d319da8"
       ],
       "categoryItems": [
         441467,
-        485397
+        485397,
+        481147
       ],
       "questionAnswers": [],
       "roomId": 79329,
@@ -2551,31 +2555,6 @@
       ],
       "questionAnswers": [],
       "roomId": 79330,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
-      "id": "1237679",
-      "title": "Pitching national shows and podcasts",
-      "description": "TBD",
-      "startsAt": "2026-06-19T10:15:00",
-      "endsAt": "2026-06-19T11:15:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "e87712d0-4075-4052-9b63-761087012b6d",
-        "f350c828-2173-490a-b79c-b3ab457f2a9b"
-      ],
-      "categoryItems": [
-        441467,
-        458381,
-        481147
-      ],
-      "questionAnswers": [],
-      "roomId": 79329,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -3375,7 +3354,7 @@
     {
       "id": "1238746",
       "title": "Records access and the right to record: Newsgathering for covering law enforcement",
-      "description": " Video of law enforcement in action and related public records are a powerful tool in accountability journalism — from covering police use-of-force incidents and protest responses, to immigration raids and other enforcement operations that happen out of public view. But the legal landscape around capturing and accessing footage of law enforcement and obtaining public records around the actions of individual officers and departments, is complex and changing. This session brings together journalists and legal experts to explore shifts in the right to record officers in public, including ongoing legal challenges to police “buffer zone” laws nationwide; using local law enforcement footage to scrutinize federal immigration enforcement; the use of drones for newsgathering amid efforts to establish no-fly zones around law enforcement operations; use of police in schools; and the varied sources for public records and footage that can be mined to investigate problem offers and departments.\r\n\r\n\r\n",
+      "description": "Video of law enforcement in action and related public records are a powerful tool in accountability journalism — from covering police use-of-force incidents and protest responses, to immigration raids and other enforcement operations that happen out of public view. But the legal landscape around capturing and accessing footage of law enforcement and obtaining public records around the actions of individual officers and departments, is complex and changing. This session brings together journalists and legal experts to explore shifts in the right to record officers in public, including ongoing legal challenges to police “buffer zone” laws nationwide; using local law enforcement footage to scrutinize federal immigration enforcement; the use of drones for newsgathering amid efforts to establish no-fly zones around law enforcement operations; use of police in schools; and the varied sources for public records and footage that can be mined to investigate problem offers and departments.\r\n\r\n",
       "startsAt": "2026-06-19T16:00:00",
       "endsAt": "2026-06-19T17:00:00",
       "isServiceSession": false,
@@ -3387,6 +3366,7 @@
         "437abe8c-a9e6-43fe-9e36-56f251832df5"
       ],
       "categoryItems": [
+        441467,
         458503,
         481148
       ],
@@ -3778,7 +3758,9 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "8e19e4a9-58bb-408d-aa8f-39ac150653ba"
+        "8e19e4a9-58bb-408d-aa8f-39ac150653ba",
+        "adcd8a6a-d1b1-480b-ac83-1cf6f3618ea9",
+        "4e3271f5-e893-46a9-95cb-bfbd5da70fc5"
       ],
       "categoryItems": [
         481148
@@ -6310,7 +6292,7 @@
     {
       "id": "1255887",
       "title": "Finding the story with federal data: transit crime and safety",
-      "description": null,
+      "description": "Finding the story with federal data: transit crime and safety\r\n\r\nDo you cover a city with an active transit system? Do people in your community have a lot of opinions about the safety of the system? Are there ever any breaking news incidents about safety or security on your transit system? Then this session is for you. The Federal Transit Administration keeps several extremely detailed databases that you can use to compare your system to others around the nation, so you can objectively report what's a problem and what's not. Data reporter Caitlin McGlade will guide you through what's out there and how you can use it. ",
       "startsAt": "2026-06-21T11:30:00",
       "endsAt": "2026-06-21T12:30:00",
       "isServiceSession": false,
@@ -9727,6 +9709,22 @@
       "questionAnswers": []
     },
     {
+      "id": "adcd8a6a-d1b1-480b-ac83-1cf6f3618ea9",
+      "firstName": "Fareed",
+      "lastName": "Mostoufi",
+      "bio": null,
+      "tagLine": "The Pulitzer Center",
+      "profilePicture": "https://sessionize.com/image/8a72-400o400o1-9BhRcXt8YGSQAd9YKrJgjn.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1238771
+      ],
+      "fullName": "Fareed Mostoufi",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
       "id": "2db72234-18e6-449d-9eb2-1446ea39530c",
       "firstName": "Fatemeh",
       "lastName": "Jamalpour",
@@ -10330,28 +10328,6 @@
       "questionAnswers": []
     },
     {
-      "id": "f350c828-2173-490a-b79c-b3ab457f2a9b",
-      "firstName": "Irene",
-      "lastName": "Noguchi",
-      "bio": "Irene Noguchi is the Executive Producer leading NPR's Enterprise Storytelling Unit, which includes the talented teams creating the shows Embedded, Throughline, TED Radio Hour, and The Sunday Story from Up First. (Our award-winning shows Embedded & The Sunday Story are actively taking pitches.) She brings a rich background of public radio, digital media and experience covering news and launching new podcasts.\r\nShe formerly led the Opinion Audio department at The New York Times, which included The Ezra Klein Show and First Person, among others, and was the Head of Audio at Politico. Prior to that, she co-launched Vox's daily news podcast Today, Explained as its executive producer.",
-      "tagLine": "Executive Producer, Enterprise Storytelling Unit at NPR",
-      "profilePicture": "https://sessionize.com/image/4481-400o400o1-nrFzdxiv14LD7mUCraFF3L.jpg",
-      "isTopSpeaker": false,
-      "links": [
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/irenenoguchi",
-          "linkType": "LinkedIn"
-        }
-      ],
-      "sessions": [
-        1237679
-      ],
-      "fullName": "Irene Noguchi",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
       "id": "ac1462ea-49fb-4eec-a894-58d045e034d8",
       "firstName": "Isabella",
       "lastName": "González Von Hauske",
@@ -10371,6 +10347,28 @@
         1253150
       ],
       "fullName": "Isabella González Von Hauske",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "e47a16e8-0367-4fdb-9258-a9a0747448e9",
+      "firstName": "Ivy",
+      "lastName": "Scott",
+      "bio": "Ivy Scott is an engagement reporter for The Marshall Project, responsible for producing community-driven, investigative and public service journalism about immigration and the criminal legal system. Previously, she was a reporter at The Boston Globe, most recently on the climate solutions beat and before that, covering state courts, police accountability, and the Massachusetts Department of Correction. She is a 2024 Livingston Awards finalist and her podcast miniseries on dating and relationships in prison was Webby nominated and won a Society for Features Journalism award.  ",
+      "tagLine": "Engagement reporter, The Marshall Project",
+      "profilePicture": "https://sessionize.com/image/6f22-400o400o1-PfZMMpj5YimhHuUZ8DDGiz.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/ivy-s-79b703199/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        1182946
+      ],
+      "fullName": "Ivy Scott",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -11876,7 +11874,6 @@
         }
       ],
       "sessions": [
-        1237679,
         1237931,
         1221592
       ],
@@ -12316,33 +12313,6 @@
         1220218
       ],
       "fullName": "Kelly Glass",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "0e7cb798-9f22-481d-942a-143b127fdf25",
-      "firstName": "Kelly",
-      "lastName": "Wiley",
-      "bio": "Kelly Wiley is an Emmy-award-winning investigative reporter based in Texas. Her recent work for KXAN, exploring Texas' untracked truancy system and gaps in backgrounding educators, resulted in lawmakers filing new legislation. In addition to investigative projects, Kelly also produces special segments and documentaries, including an Emmy-nominated documentary telling the story of the first 12 Black students to integrate Austin's public schools. Since 2023, Kelly has served on the National Association of Black Journalists' Investigative Task Force.",
-      "tagLine": "Investigative Reporter KXAN News",
-      "profilePicture": "https://sessionize.com/image/b107-400o400o1-BRMWAbhbSnssWF5KwmJrXi.png",
-      "isTopSpeaker": false,
-      "links": [
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/kelly-wiley-695a4959/",
-          "linkType": "LinkedIn"
-        },
-        {
-          "title": "Instagram",
-          "url": "https://www.instagram.com/kellywileynews/",
-          "linkType": "Instagram"
-        }
-      ],
-      "sessions": [
-        1243351
-      ],
-      "fullName": "Kelly Wiley",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -15697,6 +15667,22 @@
       "questionAnswers": []
     },
     {
+      "id": "4e3271f5-e893-46a9-95cb-bfbd5da70fc5",
+      "firstName": "Stephanie",
+      "lastName": "Casanova",
+      "bio": null,
+      "tagLine": "Arizona Luminaria",
+      "profilePicture": "https://sessionize.com/image/5fe7-400o400o1-Ed4beemf9LbUYvHNZfzeAz.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1238771
+      ],
+      "fullName": "Stephanie Casanova",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
       "id": "ebafcb27-332d-4e8d-bade-a01c5519c7ab",
       "firstName": "Stephanie",
       "lastName": "McCrummen",
@@ -15835,6 +15821,7 @@
         }
       ],
       "sessions": [
+        1243351,
         1250253
       ],
       "fullName": "Steve Staeger",
