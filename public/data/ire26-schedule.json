@@ -984,8 +984,8 @@
     },
     {
       "id": "1229828",
-      "title": "Investigate like the AP: Using Everlaw legal tools in news",
-      "description": "Aaron Kessler, data and investigative journalist at the Associated Press, talks about how his team uses Everlaw in document-heavy investigations.\r\n\r\nAlso see how Everlaw's document review and discovery platform can help reporters dig deeper into large document sets, understand data, surface insights, and streamline their investigations to chart a straighter path to the truth. Learn more at: https://www.everlaw.com/forgood/\r\n",
+      "title": "Finding a Needle in the Haystack: Using Everlaw Legal Tools for News Investigations",
+      "description": "Aaron Kessler, data and investigative journalist at the Associated Press, talks about how his team uses Everlaw in document-heavy investigations.\r\n\r\nAnd see how Everlaw's document review and discovery platform can help reporters dig deeper into large document sets, understand data, surface insights, and streamline their investigations to chart a straighter path to the truth. Learn more at: https://www.everlaw.com/forgood/\r\n",
       "startsAt": "2026-06-18T11:30:00",
       "endsAt": "2026-06-18T12:30:00",
       "isServiceSession": false,
@@ -3366,7 +3366,7 @@
         "7bc2e14b-c17b-4fc2-bc79-d0732e00c4bc",
         "e41e6e1e-b5b5-4ae9-9472-b1e95a2d9154",
         "6543b758-48d0-4bd3-bf6d-347b6a0c7c1d",
-        "36cd86b5-2a61-41ce-ba88-8776e5023dc5"
+        "437abe8c-a9e6-43fe-9e36-56f251832df5"
       ],
       "categoryItems": [
         458503,
@@ -8332,12 +8332,12 @@
       "questionAnswers": []
     },
     {
-      "id": "36cd86b5-2a61-41ce-ba88-8776e5023dc5",
+      "id": "437abe8c-a9e6-43fe-9e36-56f251832df5",
       "firstName": "Clare",
       "lastName": "Amari",
-      "bio": null,
-      "tagLine": "former Local News Fellow, New York Times",
-      "profilePicture": "https://sessionize.com/image/ad03-400o400o1-A2xePCCD9WQAgjmAEExAB.jpg",
+      "bio": "Clare Amari is an investigative reporter based in Houston, Texas. Most recently, she investigated school policing in Texas through The New York Times’ Local Investigations Fellowship. Before joining The Times, Clare covered local prosecutors and the criminal courts in Greater Houston for the nonprofit news organization Houston Landing. There, she wrote on issues ranging from the region’s overburdened justice system to deadly police pursuits to an inmate who spent decades on death row before his sentence was overturned as unconstitutional.",
+      "tagLine": "Associate Reporter, The New York Times",
+      "profilePicture": "https://sessionize.com/image/7de4-400o400o1-fjT2RvFgmLEsx9HPBZHowy.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
@@ -10216,7 +10216,13 @@
       "tagLine": "KFF Health News",
       "profilePicture": "https://sessionize.com/image/e093-400o400o1-nruLkwapa3oAggPZDbkhVL.jpg",
       "isTopSpeaker": false,
-      "links": [],
+      "links": [
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/holly-hacker",
+          "linkType": "Sessionize"
+        }
+      ],
       "sessions": [
         1234199
       ],
