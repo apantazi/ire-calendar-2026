@@ -3075,9 +3075,9 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "69097ac0-bfc1-475d-9114-498b88fe872a",
         "420acebe-6c60-473a-9d99-ecb4f4666b74",
-        "9dce80cd-ea14-4d89-9326-ae7a50272665"
+        "9dce80cd-ea14-4d89-9326-ae7a50272665",
+        "1f00397b-3bd6-471b-8637-39195f0b6090"
       ],
       "categoryItems": [
         481148
@@ -6135,8 +6135,8 @@
       "isPlenumSession": false,
       "speakers": [
         "626957d9-3543-4cb5-a0d1-5fdb150e77d7",
-        "bc2a4827-c1bf-44e5-baac-10c432c7bbe4",
-        "ac1462ea-49fb-4eec-a894-58d045e034d8"
+        "ac1462ea-49fb-4eec-a894-58d045e034d8",
+        "0e56fa6c-ae15-44f1-8b81-15efa477f6d0"
       ],
       "categoryItems": [
         441467,
@@ -7063,14 +7063,20 @@
       "questionAnswers": []
     },
     {
-      "id": "bc2a4827-c1bf-44e5-baac-10c432c7bbe4",
+      "id": "0e56fa6c-ae15-44f1-8b81-15efa477f6d0",
       "firstName": "Andrea",
       "lastName": "Castillo",
-      "bio": null,
-      "tagLine": "LATimes",
-      "profilePicture": null,
+      "bio": "Andrea Castillo covers federal immigration policy and its human consequences from Washington, D.C. She joined the newspaper in 2017, initially covering immigration from Los Angeles. Castillo’s reporting focuses on enforcement, detention, the legal immigration system and the political battles shaping federal and local changes. ",
+      "tagLine": "Los Angeles Times ",
+      "profilePicture": "https://sessionize.com/image/a958-400o400o1-YEjN2ZC2YMAUDFUnsy6aX9.jpg",
       "isTopSpeaker": false,
-      "links": [],
+      "links": [
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/andrea-castillo",
+          "linkType": "Sessionize"
+        }
+      ],
       "sessions": [
         1253150
       ],
@@ -14231,22 +14237,6 @@
       "questionAnswers": []
     },
     {
-      "id": "69097ac0-bfc1-475d-9114-498b88fe872a",
-      "firstName": "Missy",
-      "lastName": "Ryan",
-      "bio": "Missy Ryan writes about national security, foreign policy and defense for The Atlantic. She has also written for The Washington Post and Reuters and has worked as a foreign correspondent in Latin America and the Middle East. ",
-      "tagLine": "Staff writer",
-      "profilePicture": "https://sessionize.com/image/8ce3-400o400o1-RSuZTGVej9LWUYjmAeGM7p.png",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        1238739
-      ],
-      "fullName": "Missy Ryan",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
       "id": "4734cd04-7332-4d10-9d89-91bd08aee358",
       "firstName": "Mitch",
       "lastName": "Ryals",
@@ -14373,6 +14363,22 @@
         1233356
       ],
       "fullName": "Najib Aminy",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "1f00397b-3bd6-471b-8637-39195f0b6090",
+      "firstName": "Nancy",
+      "lastName": "Youssef",
+      "bio": "Nancy Youssef is a staff writer at The Atlantic. Before that, she was a longtime national security correspondent for The Wall Street Journal. \r\n\r\nShe also worked at BuzzFeed News and The Daily Beast. She spent much of her career at McClatchy Newspapers where she served as National Security Correspondent and Middle East Bureau Chief based in Cairo covering the Middle East and the Islamic world.  Prior to that she was McClatchy's chief Pentagon correspondent, focusing on the wars in Iraq and Afghanistan. She traveled frequently to those two nations to see how the policies crafted in Washington reached Afghans, Iraqis and the troops alike. She is also founder of the Pentagon Press Association.\r\n\r\nBefore covering the Pentagon, she spent four years covering the Iraq war, including a stint as Baghdad bureau chief. Her pieces focused on the everyday Iraqi experience, civilian casualties and how the U.S.'s military strategy was reshaping Iraq's social and political dynamics.\r\n\r\nShe began her career at the Detroit Free Press, covering legal issues. While at the Free Press, she traveled throughout Jordan and Iraq for Knight Ridder, covering the Iraq war from the time leading up to it through the post-war period. She began her journalism career at the Baltimore Sun.\r\n\r\nA Washington, D.C.-area native, she earned a bachelor's degree in Economics from University of Virginia and master’s degree in Security Studies from Georgetown University’s School of Foreign Service. Her parents are from Egypt, and she has been visiting the region all of her life. She currently lives in Washington D.C. and is an advocate for supporting neurodiverse children. She speaks Arabic.",
+      "tagLine": "The Atlantic ",
+      "profilePicture": null,
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1238739
+      ],
+      "fullName": "Nancy Youssef",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -15316,7 +15322,7 @@
       "id": "fd098123-6f92-4211-818f-28bf220c12de",
       "firstName": "Scott",
       "lastName": "Zamost",
-      "bio": "As the senior investigative producer for CNBC, Scott set up the current investigative unit which produces long and short form pieces for broadcast and online. His team teams up with correspondents and field producers depending on the subject area. \r\n\r\nScott joined CNBC in June 2017 after spending nine years at CNN also as a senior investigative producer. During his career, he has won more than 100 journalism awards, including four first place National Headliner Awards, eight second place and two third place, two Investigative Reporters and Editors (IRE) awards while at NBC 6 Miami and CNN, five national Emmy nominations, and 23 regional Emmys and 44 Emmy nominations while he was an investigative producer in south Florida at NBC 6 and WPLG-TV.\r\n\r\nIn 2026, he won two first place awards from SABEW and as his latest first place National Headliner Award.\r\n\r\nHis stories range from financial fraud to illegal business related to health care. He began his career as a reporter at the Las Vegas Sun.",
+      "bio": "As the senior investigative producer for CNBC, Scott set up the current investigative unit which produces long and short form pieces for broadcast and online. His team teams up with correspondents and field producers depending on the subject area. \r\n\r\nScott joined CNBC in June 2017 after spending nine years at CNN also as a senior investigative producer. During his career, he has won more than 100 journalism awards, including four first place National Headliner Awards, eight second place and two third place, two Investigative Reporters and Editors (IRE) awards while at NBC 6 Miami and CNN, five national Emmy nominations, and 23 regional Emmys and 44 Emmy nominations while he was an investigative producer in south Florida at NBC 6 and WPLG-TV.\r\n\r\nIn 2026, he won two first place awards from SABEW and his latest first place National Headliner Award.\r\n\r\nHis stories range from financial fraud to illegal business related to health care. He began his career as a reporter at the Las Vegas Sun.",
       "tagLine": "CNBC Senior Investigative Producer",
       "profilePicture": "https://sessionize.com/image/de58-400o400o1-LHZC8NBZ8gBkppUfFnj6x7.jpg",
       "isTopSpeaker": false,
