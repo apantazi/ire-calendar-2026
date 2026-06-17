@@ -1080,7 +1080,7 @@
     {
       "id": "3820e305-82a2-495d-8ad9-214daf2b4f48",
       "title": "Lunch Bunch",
-      "description": "Make some new friends over lunch! Show up and we'll connect you with other folks who want to chat and network over the lunch break -- a great way to make a big conference feel smaller.",
+      "description": "Meet by the shoe shine stand on the 2nd level. Make some new friends over lunch! Show up and we'll connect you with other folks who want to chat and network over the lunch break -- a great way to make a big conference feel smaller.",
       "startsAt": "2026-06-18T12:35:00",
       "endsAt": "2026-06-18T14:25:00",
       "isServiceSession": true,
@@ -4917,7 +4917,7 @@
     {
       "id": "361a29cc-4ed0-4f3b-af2e-66c0522a08da",
       "title": "Lunch Bunch",
-      "description": "Make some new friends over lunch! Show up and we'll connect you with other folks who want to chat and network over the lunch break -- a great way to make a big conference feel smaller.",
+      "description": "Meet by the shoe shine stand on the 2nd level. Make some new friends over lunch! Show up and we'll connect you with other folks who want to chat and network over the lunch break -- a great way to make a big conference feel smaller.",
       "startsAt": "2026-06-20T12:35:00",
       "endsAt": "2026-06-20T14:25:00",
       "isServiceSession": true,
@@ -5094,6 +5094,29 @@
       ],
       "questionAnswers": [],
       "roomId": 81417,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
+      "id": "1266384",
+      "title": "Finding the story: juvenile police records",
+      "description": "State lawmakers nationwide enacted almost 100 school safety bills after the 2022 shooting at Robb Elementary in Uvalde. Few states were as hardline as Texas, where lawmakers ordered public school districts to station a licensed police officer on every campus.\u2028\u2028\r\n\r\nPresenters will walk attendees through strategies for reporting on this under-covered beat, with a particular emphasis on documenting arrests and police use of force against students. They will discuss how to obtain juvenile law enforcement records, how to work ethically with children and teenagers, and other ways to reveal and document police activities on campus. They will also provide context on academic research into school policing and the practices that tend to result in more arrests and disproportionate use of force. \r\n\r\nThis session is for anyone interested in reporting on schools, law enforcement or children and families.    ",
+      "startsAt": "2026-06-20T14:30:00",
+      "endsAt": "2026-06-20T15:30:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "3e7761ec-7891-47af-b86f-5768a8714c6c",
+        "437abe8c-a9e6-43fe-9e36-56f251832df5"
+      ],
+      "categoryItems": [
+        441468
+      ],
+      "questionAnswers": [],
+      "roomId": 81418,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
@@ -7724,7 +7747,7 @@
       "firstName": "Brian",
       "lastName": "Carovillano",
       "bio": "Brian Carovillano is Senior Vice President for News at Versant Media, overseeing standards, elections and editorial partnerships for MS NOW and CNBC. He previously led the standards team at the NBCUniversal News Group, including NBC News, MSNBC, CNBC, and Telemundo. Prior to NBCU, he held senior editorial roles at The Associated Press, including global managing editor, national editor and Asia-Pacific news director. Under his leadership, his teams earned top journalism honors including Pulitzer Prizes.",
-      "tagLine": "SVP, Head of Standards and Partnerships, Versant Media (MS NOW and CNBC)",
+      "tagLine": "Senior Vice President, Versant Media (MS NOW and CNBC)",
       "profilePicture": "https://sessionize.com/image/9bfe-400o400o1-PUerrNELQnE1wR3m56SVY4.jpg",
       "isTopSpeaker": false,
       "links": [
@@ -8369,7 +8392,8 @@
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        1238746
+        1238746,
+        1266384
       ],
       "fullName": "Clare Amari",
       "categoryItems": [],
@@ -12543,6 +12567,28 @@
         1237735
       ],
       "fullName": "Kristen Hare",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "3e7761ec-7891-47af-b86f-5768a8714c6c",
+      "firstName": "Kristian",
+      "lastName": "Hernández",
+      "bio": "I am a native Texan and first-generation Mexican-American who grew up on both sides of the Rio Grande. I have a master’s degree in investigative journalism from American University and a bachelor’s in multimedia journalism from the University of Texas at El Paso. Before joining The Times, I was a senior investigative reporter at the Center for Public Integrity and The Fort Worth Star-Telegram.",
+      "tagLine": "The New York Times",
+      "profilePicture": "https://sessionize.com/image/8861-400o400o1-SSErbkYkdrBwHM5FpHU6EY.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/kristian-hernández-02964644?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        1266384
+      ],
+      "fullName": "Kristian Hernández",
       "categoryItems": [],
       "questionAnswers": []
     },
