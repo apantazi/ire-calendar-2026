@@ -2441,7 +2441,7 @@
     {
       "id": "08804b3a-2711-4de0-8aad-139042c246e0",
       "title": "Audio Coaching 1:1",
-      "description": "Sign up for 30 minutes with an audio pro to use however you like: Bring tape for a critique, a pitch for workshopping or your questions about surviving and thriving in the audio journalism space.",
+      "description": "Sign up for 30 minutes with an audio pro to use however you like: Bring tape for a critique, a pitch for workshopping or your questions about surviving and thriving in the audio journalism space. Sign up at http://tiny.cc/audio-1-1",
       "startsAt": "2026-06-19T09:00:00",
       "endsAt": "2026-06-19T17:00:00",
       "isServiceSession": true,
@@ -2629,7 +2629,8 @@
         "9637cf2e-1149-4a2b-ac25-91e2d3fcc6dc"
       ],
       "categoryItems": [
-        485397
+        485397,
+        481147
       ],
       "questionAnswers": [],
       "roomId": 81417,
@@ -3653,20 +3654,18 @@
       "isConfirmed": true
     },
     {
-      "id": "1188169",
-      "title": "The evolution of anonymity in the Trump era",
-      "description": "In the current climate, newsrooms are being forced to reconsider what qualifies for anonymous treatment in a story. We talk about the evolving risks our sources face and how to systemize the decision of whether to remove someone's name from an already-published story.",
+      "id": "1265854",
+      "title": "Anonymity in the Trump Era",
+      "description": "Anonymous sources have always been key to what we do - but in the current administration, not only is the risk greater for them to come forward, but we become targets by utilizing them.  How do we work with those who can't be identified for fear of retribution or punishment?  ",
       "startsAt": "2026-06-19T17:15:00",
       "endsAt": "2026-06-19T18:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "5f1de8af-3031-43f5-a99b-d829b18437f6"
+        "3ba854ea-11ef-49b4-bcce-3b8add8c2dcd"
       ],
       "categoryItems": [
-        441467,
-        458503,
-        481147
+        441467
       ],
       "questionAnswers": [],
       "roomId": 79329,
@@ -3788,7 +3787,8 @@
       ],
       "categoryItems": [
         441467,
-        485397
+        485397,
+        481147
       ],
       "questionAnswers": [],
       "roomId": 81423,
@@ -4148,7 +4148,8 @@
       ],
       "categoryItems": [
         441467,
-        485397
+        485397,
+        481147
       ],
       "questionAnswers": [],
       "roomId": 81423,
@@ -4832,7 +4833,8 @@
       ],
       "categoryItems": [
         441467,
-        485397
+        485397,
+        481147
       ],
       "questionAnswers": [],
       "roomId": 81423,
@@ -5830,7 +5832,8 @@
       ],
       "categoryItems": [
         441467,
-        485397
+        485397,
+        481147
       ],
       "questionAnswers": [],
       "roomId": 81423,
@@ -8301,6 +8304,7 @@
       "sessions": [
         1146011,
         1264498,
+        1265854,
         1264308,
         1174148,
         1264333,
@@ -8961,22 +8965,6 @@
         1251830
       ],
       "fullName": "David Hodges",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "5f1de8af-3031-43f5-a99b-d829b18437f6",
-      "firstName": "David Cay",
-      "lastName": "Johnston",
-      "bio": null,
-      "tagLine": null,
-      "profilePicture": null,
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        1188169
-      ],
-      "fullName": "David Cay Johnston",
       "categoryItems": [],
       "questionAnswers": []
     },
