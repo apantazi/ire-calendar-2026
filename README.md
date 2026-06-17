@@ -281,19 +281,20 @@ GitHub Actions includes an hourly static-data refresh workflow:
 It runs at minute 17 of every hour to avoid GitHub's busiest top-of-hour schedule window. The workflow:
 
 1. Downloads the latest Sessionize schedule into `public/data/ire26-schedule.json`.
-2. Compares the new schedule fingerprint with the saved embedding cache.
-3. Starts a CPU Text Embeddings Inference container for `Qwen/Qwen3-Embedding-0.6B` only when the schedule changed.
-4. Rebuilds `public/data/ire26-session-embeddings.json`.
-5. Runs `npm test` and `npm run build`.
-6. Commits the refreshed static data.
-7. Deploys the rebuilt `dist` artifact to GitHub Pages.
+2. Checks whether the saved schedule file changed.
+3. Compares the new embedding fingerprint with `public/data/ire26-session-embeddings.json`.
+4. Rebuilds Qwen embeddings only when that embedding fingerprint changed.
+5. Runs `npm test` and `npm run build` only when static data changed.
+6. Commits changed schedule and/or embedding files.
+7. Deploys the rebuilt `dist` artifact to GitHub Pages when a data commit was made.
+
+That means hourly runs do not rebuild embeddings when the schedule is unchanged. If Sessionize changes metadata that affects the app but not the embedding text, the workflow can still save and deploy the schedule JSON without starting the embedding container.
 
 Manual refresh:
 
 1. Open GitHub.
 2. Go to `Actions` > `Refresh Schedule Data`.
 3. Click `Run workflow`.
-4. Set `force_embeddings` to `true` only if you want to rebuild embeddings even when the schedule has not changed.
 
 The scheduled workflow commits with `GITHUB_TOKEN`, so it deploys Pages inside the same workflow instead of relying on the separate push-triggered `Deploy` workflow.
 

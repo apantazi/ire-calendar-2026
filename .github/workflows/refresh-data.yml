@@ -2,12 +2,6 @@ name: Refresh Schedule Data
 
 on:
   workflow_dispatch:
-    inputs:
-      force_embeddings:
-        description: Rebuild embeddings even if the schedule fingerprint is unchanged
-        required: false
-        type: boolean
-        default: false
   schedule:
     # GitHub schedules can be delayed at the top of the hour, so use an offset.
     - cron: "17 * * * *"
@@ -46,13 +40,16 @@ jobs:
             "https://2026-ire-conference.sessionize.com/api/schedule" \
             -o public/data/ire26-schedule.json
 
-      - name: Check whether embeddings need refresh
-        id: refresh_check
+      - name: Check whether static data changed
+        id: change_check
         shell: bash
-        env:
-          FORCE_EMBEDDINGS: ${{ github.event.inputs.force_embeddings || 'false' }}
         run: |
-          old_fingerprint="$(node -e "const fs=require('fs'); const p=JSON.parse(fs.readFileSync('public/data/ire26-session-embeddings.json','utf8')); console.log(p.scheduleFingerprint || '')")"
+          schedule_changed=false
+          if ! git diff --quiet -- public/data/ire26-schedule.json; then
+            schedule_changed=true
+          fi
+
+          old_fingerprint="$(node -e "try { const fs=require('fs'); const p=JSON.parse(fs.readFileSync('public/data/ire26-session-embeddings.json','utf8')); console.log(p.scheduleFingerprint || '') } catch { console.log('') }")"
           new_fingerprint="$(node --input-type=module <<'NODE'
           import fs from "node:fs";
           import { getScheduleEmbeddingFingerprint } from "./src/lib/embeddings.js";
@@ -65,23 +62,35 @@ jobs:
 
           echo "old_fingerprint=${old_fingerprint}"
           echo "new_fingerprint=${new_fingerprint}"
-          echo "force_embeddings=${FORCE_EMBEDDINGS}"
+          echo "schedule_changed=${schedule_changed}"
 
-          if [[ "${old_fingerprint}" != "${new_fingerprint}" || "${FORCE_EMBEDDINGS}" == "true" ]]; then
-            echo "needs_refresh=true" >> "$GITHUB_OUTPUT"
+          if [[ "${old_fingerprint}" != "${new_fingerprint}" ]]; then
+            embeddings_changed=true
           else
-            echo "needs_refresh=false" >> "$GITHUB_OUTPUT"
+            embeddings_changed=false
           fi
 
+          if [[ "${schedule_changed}" == "true" || "${embeddings_changed}" == "true" ]]; then
+            static_changed=true
+          else
+            static_changed=false
+          fi
+
+          echo "embeddings_changed=${embeddings_changed}"
+          echo "static_changed=${static_changed}"
+          echo "schedule_changed=${schedule_changed}" >> "$GITHUB_OUTPUT"
+          echo "embeddings_changed=${embeddings_changed}" >> "$GITHUB_OUTPUT"
+          echo "static_changed=${static_changed}" >> "$GITHUB_OUTPUT"
+
       - name: Cache Qwen model files
-        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        if: steps.change_check.outputs.embeddings_changed == 'true'
         uses: actions/cache@v4
         with:
           path: .hf-cache
           key: tei-qwen3-embedding-0-6b-${{ runner.os }}-v1
 
       - name: Start local Qwen embedding server
-        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        if: steps.change_check.outputs.embeddings_changed == 'true'
         run: |
           mkdir -p .hf-cache
           docker run -d --rm \
@@ -96,7 +105,7 @@ jobs:
             --model-id Qwen/Qwen3-Embedding-0.6B
 
       - name: Wait for Qwen embedding server
-        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        if: steps.change_check.outputs.embeddings_changed == 'true'
         run: |
           for attempt in {1..120}; do
             if curl -fsS \
@@ -113,7 +122,7 @@ jobs:
           exit 1
 
       - name: Rebuild saved Qwen embeddings
-        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        if: steps.change_check.outputs.embeddings_changed == 'true'
         env:
           QWEN_EMBEDDING_URL: http://127.0.0.1:8080/embed
           QWEN_EMBEDDING_FORMAT: tei
@@ -124,19 +133,19 @@ jobs:
         run: npm run build:embeddings
 
       - name: Stop local Qwen embedding server
-        if: always() && steps.refresh_check.outputs.needs_refresh == 'true'
+        if: always() && steps.change_check.outputs.embeddings_changed == 'true'
         run: docker stop qwen-tei || true
 
       - name: Test refreshed app
-        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        if: steps.change_check.outputs.static_changed == 'true'
         run: npm test
 
       - name: Build refreshed app
-        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        if: steps.change_check.outputs.static_changed == 'true'
         run: npm run build
 
       - name: Commit refreshed static data
-        if: steps.refresh_check.outputs.needs_refresh == 'true'
+        if: steps.change_check.outputs.static_changed == 'true'
         id: commit
         run: |
           git config user.name "github-actions[bot]"
@@ -152,6 +161,10 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Report schedule-only refresh
+        if: steps.change_check.outputs.schedule_changed == 'true' && steps.change_check.outputs.embeddings_changed != 'true'
+        run: echo "Schedule data changed; skipped embedding rebuild because the embedding fingerprint is unchanged."
+
       - uses: actions/configure-pages@v5
         if: steps.commit.outputs.changed == 'true'
 
@@ -165,5 +178,5 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Report no-op refresh
-        if: steps.refresh_check.outputs.needs_refresh != 'true'
-        run: echo "Schedule fingerprint is unchanged; skipped embedding rebuild and deployment."
+        if: steps.change_check.outputs.static_changed != 'true'
+        run: echo "Schedule data and embedding fingerprint are unchanged; skipped rebuild and deployment."
