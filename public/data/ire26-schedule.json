@@ -4429,7 +4429,8 @@
         "9a6f5fa7-5def-4752-9476-e67dd24a3cd4",
         "1b5d4aa7-54e7-4b85-8414-d382ddc1ea09",
         "1309f111-6d01-4f0b-8240-8752ca118743",
-        "002e5559-4c54-457a-a875-f55390564354"
+        "002e5559-4c54-457a-a875-f55390564354",
+        "006d530c-fe58-4128-8da1-803fca7dc8a9"
       ],
       "categoryItems": [
         441467,
@@ -11677,6 +11678,11 @@
           "title": "Facebook",
           "url": "https://www.facebook.com/share/18wEZeorS9/?mibextid=wwXIfr",
           "linkType": "Facebook"
+        },
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/justin-lum",
+          "linkType": "Sessionize"
         }
       ],
       "sessions": [
@@ -13106,6 +13112,22 @@
         1238604
       ],
       "fullName": "Levi Ismail",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "006d530c-fe58-4128-8da1-803fca7dc8a9",
+      "firstName": "Lex",
+      "lastName": "Doig",
+      "bio": "After accidentally graduating a semester early, Lex Doig is pursuing a Masters in Investigative Journalism at ASU. They worked with the Howard Center for Investigative Journalism to publish two national investigative projects: the first on the lack of federal oversight on train bridge inspections, and the second on occupational exposure to cosmic radiation for aircrews.",
+      "tagLine": "Howard Center for Investigative Journalism (ASU)",
+      "profilePicture": "https://sessionize.com/image/4200-400o400o1-h9xtRDYCAk9eKT9vX3Z7np.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1147841
+      ],
+      "fullName": "Lex Doig",
       "categoryItems": [],
       "questionAnswers": []
     },
