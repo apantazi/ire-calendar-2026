@@ -2178,7 +2178,8 @@
       "speakers": [
         "8ec441b9-46d0-4fff-ad6e-8b4b6e9fd81e",
         "bfd2a4e6-d94b-41ab-89c3-8a4b7dcb085f",
-        "2cb35915-896f-47dd-9173-452c9d319da8"
+        "2cb35915-896f-47dd-9173-452c9d319da8",
+        "faf9fb19-d163-4150-ad6e-d12fc974cf64"
       ],
       "categoryItems": [
         441467,
@@ -2418,13 +2419,14 @@
     {
       "id": "1190004",
       "title": "Claude Code for journalists: A (responsible) hands-on introduction to AI-powered data exploration",
-      "description": "Journalists are increasingly expected to work with data and documents, but many lack programming backgrounds. Claude Code — an AI coding tool that works on the desktop, command line or IDE — can help bridge that gap, letting reporters do some too-complicated-for-Excel analytical work without writing code from scratch. This three-hour, pre-registered hands-on class will give attendees a practical, start-to-finish introduction to Claude Code in a journalism context. Attendees will learn how to use Claude Code to do initial exploration of unfamiliar datasets, spot data quality issues that could undermine later findings, build simple web apps for exploring and visualizing data, develop a data analysis plan for a reporting project, and work through document sets efficiently. Just as importantly, attendees will learn what Claude Code can't do well, where it's likely to lead you astray, and how to verify its output — because responsible use matters as much as knowing the tool. No prior programming experience required. Attendees will leave with a repeatable workflow they can bring back to their newsrooms immediately.\r\n\r\nAttendees will need to bring their own laptops (preferably no tablets) for the training.",
+      "description": "There are great stories to be found through computational analysis of data and digital documents. But many investigative journalists don't know how to write code, a skill that is often required for sophisticated analyses of massive information repositories. Claude Code, which allows non-programmers to use natural language to instruct an agentic AI system to write code, can help bridge that gap.     \r\n\r\nThis three-hour, pre-registered hands-on class will give attendees a practical introduction to Claude Code for investigative data journalism. No prior programming experience is required.\r\n\r\nAttendees will get an overview of Claude Code and then use it to conduct an initial exploration of an unfamiliar dataset, spot data quality issues, perform an exploratory data analysis, visualize data and, finally, produce a data notebook with preliminary findings that can be reviewed for accuracy by humans and confirmed with further reporting. And if there's extra time, we'll show a few more tricks. \r\n\r\nAttendees will need to: \r\n--Bring a laptop and have administrative permission to install the Claude Desktop app. \r\n--Create a free Claude.ai account.\r\n--Sign up for Claude Pro, which is required to use Claude Code. It's $20 for one month, and can be cancelled immediately after the class if you want. ",
       "startsAt": "2026-06-19T09:00:00",
       "endsAt": "2026-06-19T12:30:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "9a667f8f-9e51-4f5b-b02b-7b44bc7278b2"
+        "9a667f8f-9e51-4f5b-b02b-7b44bc7278b2",
+        "a56a24ba-3ab7-4774-a3bc-9cb3187bdd5b"
       ],
       "categoryItems": [
         441470,
@@ -8056,6 +8058,7 @@
         }
       ],
       "sessions": [
+        1190004,
         1182063,
         1182068,
         1180280,
@@ -11149,7 +11152,8 @@
         }
       ],
       "sessions": [
-        1244362
+        1244362,
+        1243351
       ],
       "fullName": "Joce Sterman",
       "categoryItems": [],
