@@ -1841,21 +1841,16 @@
       "isConfirmed": true
     },
     {
-      "id": "1216883",
-      "title": "Deep dive: Turning investigative reporting into the stuff of literature",
-      "description": "Pulitzer Prize winners Caitlin Dickerson and Stephanie McCrummen both write for The Atlantic, and when you see their bylines, you know to read. Dickerson writes epic pieces steeped in horror, from “Seventy Miles in Hell,” on the Darién Gap, to the secret history of the U.S. government’s family-separation policy. McCrummen goes where few reporters venture and writes opening sentences like this: “On the day she heard God tell her to buy a mountain, Tami Barthen already sensed that her life was on a spiritual upswing.” Their talk will take you to the intersection of investigative journalism and narrative.\r\n\r\nThe presenters request that there be no video recording, photos or posting to social media during their conversation.",
+      "id": "1267439",
+      "title": "RESCHEDULED - Deep dive: Turning investigative reporting into the stuff of literature",
+      "description": "This panel has been rescheduled to Friday at 10:15 a.m.",
       "startsAt": "2026-06-18T17:00:00",
       "endsAt": "2026-06-18T18:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
-      "speakers": [
-        "163185c6-790b-4d49-8a2b-dc5d7ebe8fbd",
-        "ebafcb27-332d-4e8d-bade-a01c5519c7ab"
-      ],
+      "speakers": [],
       "categoryItems": [
-        441467,
-        458390,
-        481148
+        441467
       ],
       "questionAnswers": [],
       "roomId": 79329,
@@ -1863,7 +1858,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "1256862",
@@ -2339,7 +2334,7 @@
     {
       "id": "1220218",
       "title": "The Business of Freelancing Workshop",
-      "description": "Presented by the Institute for Independent Journalists. \r\n\r\nJoin other freelance journalists for a full-day workshop that will teach you the path to financially and emotionally sustainable freelancing! You'll receive 6 live, interactive hours of class time and a package of worksheets, freelance tools, and resources to rely on for years to come. Taught personally by IIJ leaders Katherine Reynolds Lewis, Shernay Williams, Emma Carew Grovum and Kelly Glass. \r\n\r\n9:00 - 10:00 am Session 1: Principles for Sustainable Freelancing\r\n\r\n10:15 am - 11:15 am Session 2: Your Brand and Your Network\r\n\r\n11:30 - 12:30 pm Session 3: Inside a Freelance Business\r\n\r\n2:30 - 3:45 pm Session 4: Editors Panel\r\n\r\n4:00 - 5:00 pm Session 5: Time, Client and Self Management\r\n\r\n5:15 - 6:15 pm Session 6: Freelance Systems for Success\r\n\r\nHear from editors who assign to freelance journalists, including what they’re looking for in a pitch, how to become a go-to contributor, strategies for deepening your relationship with a client, managing conflict, and more. Speakers include editors for National Geographic and other publications.\r\n\r\nSpeakers:\r\n\r\nStarlight Williams, National Geographic\r\n\r\nMaryam Saleh, Type Investigations\r\n\r\nMitch Ryals, The Baltimore Banner\r\n\r\nModerator: Kirstin Garriss, award-winning journalist, public relations and communications director at URL Collective\r\n\r\nFor more information, email info@theiij.com or check thr workshop website: https://theiij.com/2026-dc-workshop \r\n\r\nPre-registration is required and seating is limited. ",
+      "description": "Presented by the Institute for Independent Journalists. \r\n\r\nJoin other freelance journalists for a full-day workshop that will teach you the path to financially and emotionally sustainable freelancing! You'll receive 6 live, interactive hours of class time and a package of worksheets, freelance tools, and resources to rely on for years to come. Taught personally by IIJ leaders Katherine Reynolds Lewis, Shernay Williams, Emma Carew Grovum and Kelly Glass. \r\n\r\n9:00 - 10:00 am Session 1: Principles for Sustainable Freelancing\r\n\r\n10:15 am - 11:15 am Session 2: Your Brand and Your Network\r\n\r\n11:30 - 12:30 pm Session 3: Inside a Freelance Business\r\n\r\n2:30 - 3:45 pm Session 4: Editors Panel\r\n\r\n4:00 - 5:00 pm Session 5: Time, Client and Self Management\r\n\r\n5:15 - 6:15 pm Session 6: Freelance Systems for Success\r\n\r\nHear from editors who assign to freelance journalists, including what they’re looking for in a pitch, how to become a go-to contributor, strategies for deepening your relationship with a client, managing conflict, and more. Speakers include editors for National Geographic and other publications.\r\n\r\nSpeakers:\r\n\r\nStarlight Williams, National Geographic\r\n\r\nMaryam Saleh, Type Investigations\r\n\r\nMitch Ryals, The Baltimore Banner\r\n\r\nModerator: Kirstin Garriss, award-winning journalist, public relations and communications director at URL Collective\r\n\r\nFor more information, email info@theiij.com or check the workshop website: https://theiij.com/2026-dc-workshop \r\n\r\nPre-registration is required and seating is limited. ",
       "startsAt": "2026-06-19T09:00:00",
       "endsAt": "2026-06-19T18:15:00",
       "isServiceSession": false,
@@ -2558,6 +2553,31 @@
       ],
       "questionAnswers": [],
       "roomId": 79330,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1216883",
+      "title": "Deep dive: Turning investigative reporting into the stuff of literature",
+      "description": "Pulitzer Prize winners Caitlin Dickerson and Stephanie McCrummen both write for The Atlantic, and when you see their bylines, you know to read. Dickerson writes epic pieces steeped in horror, from “Seventy Miles in Hell,” on the Darién Gap, to the secret history of the U.S. government’s family-separation policy. McCrummen goes where few reporters venture and writes opening sentences like this: “On the day she heard God tell her to buy a mountain, Tami Barthen already sensed that her life was on a spiritual upswing.” Their talk will take you to the intersection of investigative journalism and narrative.\r\n\r\nThe presenters request that there be no video recording, photos or posting to social media during their conversation.",
+      "startsAt": "2026-06-19T10:15:00",
+      "endsAt": "2026-06-19T11:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "163185c6-790b-4d49-8a2b-dc5d7ebe8fbd",
+        "ebafcb27-332d-4e8d-bade-a01c5519c7ab"
+      ],
+      "categoryItems": [
+        441467,
+        458390,
+        481148
+      ],
+      "questionAnswers": [],
+      "roomId": 79329,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
