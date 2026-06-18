@@ -6373,8 +6373,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "106d91bd-a027-43c8-92d2-f593a9879f8f",
-        "baa7fef9-6130-4b8f-9f42-ad2e7df0e1c6"
+        "baa7fef9-6130-4b8f-9f42-ad2e7df0e1c6",
+        "ff8b79df-c71f-4566-b688-d4ce096621b4"
       ],
       "categoryItems": [
         441468,
@@ -6547,12 +6547,12 @@
       "questionAnswers": []
     },
     {
-      "id": "106d91bd-a027-43c8-92d2-f593a9879f8f",
+      "id": "ff8b79df-c71f-4566-b688-d4ce096621b4",
       "firstName": "Aarushi",
-      "lastName": " Sahejpal",
-      "bio": null,
-      "tagLine": null,
-      "profilePicture": null,
+      "lastName": "Sahejpal",
+      "bio": "I am a professor in AI and data science at American University, and Data Editor at the Investigative Reporting Workshop, our nonprofit and editorially-independent newsroom. ",
+      "tagLine": "Professor, American University & Data Editor, Investigative Reporting Workshop",
+      "profilePicture": "https://sessionize.com/image/d738-400o400o1-VstGT9exGS99wQMXbZutvF.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
