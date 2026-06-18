@@ -233,7 +233,6 @@
       "isPlenumSession": false,
       "speakers": [
         "826c7742-83d4-4f1e-960b-1ae5bfd61983",
-        "1483434b-a84b-4669-9ad9-761f78fc88d3",
         "1bc02517-e3af-4591-bc26-08e8af61705b",
         "3685bcbe-4ee6-4e3d-8825-415c834914e3"
       ],
@@ -8649,28 +8648,6 @@
       "questionAnswers": []
     },
     {
-      "id": "1483434b-a84b-4669-9ad9-761f78fc88d3",
-      "firstName": "Daarel",
-      "lastName": "Burnette",
-      "bio": "Before joining The Chronicle in 2022, Daarel Burnette II served as an assistant managing editor and reporter at Education Week and bureau chief for Chalkbeat Tennessee, a start-up news organization based in Memphis. He has worked as an education reporter at The Atlanta Journal-Constitution, The Minneapolis Star Tribune, and The Louisville Courier Journal. He also worked as a general-assignment reporter at the Chicago Tribune. He received his undergraduate degree in print journalism from Hampton University and a master’s degree in politics and journalism from Columbia University.",
-      "tagLine": "Senior Editor, Chronicle of Higher Education",
-      "profilePicture": "https://sessionize.com/image/c035-400o400o1-4jzu7xWLn382THVFgFMkwi.jpg",
-      "isTopSpeaker": false,
-      "links": [
-        {
-          "title": "LinkedIn",
-          "url": "https://www.linkedin.com/in/daarel-burnette-988496103/",
-          "linkType": "LinkedIn"
-        }
-      ],
-      "sessions": [
-        1255873
-      ],
-      "fullName": "Daarel Burnette",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
       "id": "023d24d5-57fc-4707-8fef-c4adab3a1bb8",
       "firstName": "Dan",
       "lastName": "Lamothe",
@@ -15158,7 +15135,7 @@
       "lastName": "Samuels",
       "bio": null,
       "tagLine": "The Washington Post",
-      "profilePicture": null,
+      "profilePicture": "https://sessionize.com/image/b394-400o400o1-wndSZVqFb3pKzNr9Q3tkjy.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
