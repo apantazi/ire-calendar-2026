@@ -3864,7 +3864,7 @@
       ],
       "categoryItems": [
         441469,
-        481147
+        481148
       ],
       "questionAnswers": [],
       "roomId": 81787,
@@ -4604,7 +4604,7 @@
     {
       "id": "1182068",
       "title": "Your AI research assistant: a live demo for investigative reporters",
-      "description": "AI tools like ChatGPT and Claude can do a lot more than write emails and summarize articles. In this live demo, we'll put them to work on the kinds of tasks that eat up your reporting time: pulling data off a web page without writing a scraper, turning a messy PDF into a structured spreadsheet, comparing two versions of a bill or contract to find what changed, cleaning and standardizing inconsistent names or addresses, and building a quick local app to browse and search your documents. No slides, no theory. It's just a fast-paced walkthrough of real investigative tasks, with time for \"can it do this?\" questions from the audience.",
+      "description": "AI tools like ChatGPT and Claude can do a lot more than write emails and summarize articles. In this live demo, we'll put them to work on the kinds of tasks that eat up your reporting time: pulling data off a web page without writing a scraper, turning a messy PDF into a structured spreadsheet, comparing two versions of a bill or contract to find what changed, cleaning and standardizing inconsistent names or addresses, and building a quick local app to browse and search your documents. Come for a fast-paced walkthrough of real investigative tasks, with time for \"can it do this?\" questions you have.",
       "startsAt": "2026-06-20T10:15:00",
       "endsAt": "2026-06-20T11:15:00",
       "isServiceSession": false,
@@ -5192,7 +5192,8 @@
         "38ee6888-5699-4288-90f9-d58114b52fa2",
         "42829652-ff4a-44b1-b6b4-cb1203ee7c77",
         "947fdb80-34b4-4142-8c4e-8028e565656f",
-        "07095ca3-2c05-41c2-a0cc-04ff2782deca"
+        "07095ca3-2c05-41c2-a0cc-04ff2782deca",
+        "8585e522-8642-4860-90b4-343914908157"
       ],
       "categoryItems": [
         441467
@@ -12053,6 +12054,22 @@
         1222815
       ],
       "fullName": "Kate Martin",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "8585e522-8642-4860-90b4-343914908157",
+      "firstName": "Kate",
+      "lastName": "Reilly",
+      "bio": "Kate Reilly is an award winning investigative consumer producer at NBC10 in Philadelphia. Kate will teach you an obtainable way to incorporate social media posting into an already busy news schedule. ",
+      "tagLine": "NBC10 - Consumer Investigative Producer",
+      "profilePicture": "https://sessionize.com/image/0d42-400o400o1-962CCz61kXRD6EyRFgFjEL.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1251830
+      ],
+      "fullName": "Kate Reilly",
       "categoryItems": [],
       "questionAnswers": []
     },
