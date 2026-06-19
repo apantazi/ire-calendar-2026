@@ -3687,7 +3687,8 @@
       "isPlenumSession": false,
       "speakers": [
         "3ba854ea-11ef-49b4-bcce-3b8add8c2dcd",
-        "a7492a6e-25f1-4617-8ac7-77707c577b4b"
+        "a7492a6e-25f1-4617-8ac7-77707c577b4b",
+        "525ce7b4-881a-4cda-9820-c86a9beffdd1"
       ],
       "categoryItems": [
         441467
@@ -9039,6 +9040,22 @@
         1251830
       ],
       "fullName": "David Hodges",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "525ce7b4-881a-4cda-9820-c86a9beffdd1",
+      "firstName": "David",
+      "lastName": "Rohde",
+      "bio": "David Rohde is a senior national security reporter for MS NOW and a two-time winner of the Pulitzer Prize. He is the author of five books, most recently, \"Where Tyranny Begins: The Justice Department, the FBI, and the War on Democracy.\" He previously worked as the national security editor for NBC News, an executive editor of The New Yorker website, and as a foreign correspondent and investigative reporter for The New York Times, Reuters, and The Christian Science Monitor. He covered the wars in Afghanistan, Iraq and Bosnia and lives in New York with his wife, Kristen Mulvihill, and two daughters.",
+      "tagLine": "Senior National Security Reporter MS NOW",
+      "profilePicture": "https://sessionize.com/image/1450-400o400o1-UUNvWKvp2sdB89XyuusXYK.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1265854
+      ],
+      "fullName": "David Rohde",
       "categoryItems": [],
       "questionAnswers": []
     },
