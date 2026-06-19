@@ -2544,7 +2544,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "6aca2724-13f9-4736-bbb4-c4c41450d662"
+        "6aca2724-13f9-4736-bbb4-c4c41450d662",
+        "666e46a4-ead4-43ce-86ca-e5a7117e4c44"
       ],
       "categoryItems": [
         441467,
@@ -2788,7 +2789,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "666e46a4-ead4-43ce-86ca-e5a7117e4c44"
+        "666e46a4-ead4-43ce-86ca-e5a7117e4c44",
+        "6aca2724-13f9-4736-bbb4-c4c41450d662"
       ],
       "categoryItems": [
         441467,
@@ -3074,7 +3076,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "6aca2724-13f9-4736-bbb4-c4c41450d662"
+        "6aca2724-13f9-4736-bbb4-c4c41450d662",
+        "666e46a4-ead4-43ce-86ca-e5a7117e4c44"
       ],
       "categoryItems": [
         441467,
@@ -10064,7 +10067,9 @@
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        1191331
+        1191325,
+        1191331,
+        1191333
       ],
       "fullName": "George Freeman",
       "categoryItems": [],
@@ -10817,6 +10822,7 @@
       ],
       "sessions": [
         1191325,
+        1191331,
         1191333
       ],
       "fullName": "Jeff Hermes",
