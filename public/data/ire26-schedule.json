@@ -3689,10 +3689,10 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "3ba854ea-11ef-49b4-bcce-3b8add8c2dcd",
         "a7492a6e-25f1-4617-8ac7-77707c577b4b",
         "525ce7b4-881a-4cda-9820-c86a9beffdd1",
-        "e9b72de2-af78-4463-9c58-8db5195d1531"
+        "e9b72de2-af78-4463-9c58-8db5195d1531",
+        "5f1de8af-3031-43f5-a99b-d829b18437f6"
       ],
       "categoryItems": [
         441467
@@ -5182,7 +5182,7 @@
     {
       "id": "1251830",
       "title": "Lightning talks",
-      "description": "The power of five sessions packed into one hour. Come listen to some broadcast pros teach you tricks of the trade in this rapid-fire lightning talk.\r\n\r\n1. How to be a self-made promotions team when yours is only focused on weather.\r\n2. How to pitch your investigative story to your managers.\r\n3. Track federal lawwsuits like an award-winning pro.\r\n4. Landing and managing the high-stakes interview.\r\n5. Make your own luck when you need an \"MOS\" interview.\r\n\r\nEric Flack is a Murrow, Emmy and AP Award winning Chief Investigative Reporter at WUSA and he'll tell you that (even with all those accolades) it isn't easy to get his stories properly promoted.\r\n\r\nWalter Smith Randolph is executive producer of investigations at CBS News New York and was a was a reporter and anchor for 15 years. Randolph will teach you how to pitch your investigative idea to your managers.\r\n\r\nFallon Gallagher is an award-winning legal affairs reporter for MSNBC and will teach you how to track federal cases like a pro.\r\n\r\nKaren Ye is an award-winning journalist with extensive experience producing both long-form documentaries and daily news reports across the U.S. and Asia. Ye will break down how to land and manage the high-stakes interview.\r\n\r\nDavid Hodges is an award-winning investigative reporter at WBTV who loathes having to get MOS interviews. Hodges will teach you how to use government records and data to make your MOS meaningful.",
+      "description": "The power of five sessions packed into one hour. Come listen to some broadcast pros teach you tricks of the trade in this rapid-fire lightning talk.\r\n\r\n1. How to be a self-made promotions team when yours is only focused on weather.\r\n2. How to pitch your investigative story to your managers.\r\n3. Track federal lawwsuits like an award-winning pro.\r\n4. Building your brand on social.\r\n5. Make your own luck when you need an \"MOS\" interview.\r\n\r\nEric Flack is a Murrow, Emmy and AP Award winning Chief Investigative Reporter at WUSA and he'll tell you that (even with all those accolades) it isn't easy to get his stories properly promoted.\r\n\r\nWalter Smith Randolph is executive producer of investigations at CBS News New York and was a was a reporter and anchor for 15 years. Randolph will teach you how to pitch your investigative idea to your managers.\r\n\r\nFallon Gallagher is an award-winning legal affairs reporter for MSNBC and will teach you how to track federal cases like a pro.\r\n\r\nKate Reilly is an award winning investigative consumer producer at NBC10 in Philadelphia. Kate will teach you an obtainable way to incorporate social media posting into an already busy news schedule. \r\n\r\nDavid Hodges is an award-winning investigative reporter at WBTV who loathes having to get MOS interviews. Hodges will teach you how to use government records and data to make your MOS meaningful.",
       "startsAt": "2026-06-20T14:30:00",
       "endsAt": "2026-06-20T15:30:00",
       "isServiceSession": false,
@@ -8428,7 +8428,6 @@
       "sessions": [
         1146011,
         1264498,
-        1265854,
         1264308,
         1174148,
         1264333,
@@ -9084,6 +9083,22 @@
         1265854
       ],
       "fullName": "David Rohde",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "5f1de8af-3031-43f5-a99b-d829b18437f6",
+      "firstName": "David Cay",
+      "lastName": "Johnston",
+      "bio": null,
+      "tagLine": null,
+      "profilePicture": null,
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1265854
+      ],
+      "fullName": "David Cay Johnston",
       "categoryItems": [],
       "questionAnswers": []
     },
