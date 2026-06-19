@@ -5725,7 +5725,9 @@
       "isPlenumSession": false,
       "speakers": [
         "9a667f8f-9e51-4f5b-b02b-7b44bc7278b2",
-        "ebd28d0e-6045-4575-aea6-426a51ff9d43"
+        "ebd28d0e-6045-4575-aea6-426a51ff9d43",
+        "aaae4c7f-cd12-4cb0-a490-bf1c0f7cc1c9",
+        "4812c1c7-d3e2-4532-8c29-b6c20e5305ab"
       ],
       "categoryItems": [
         441467,
@@ -7753,6 +7755,28 @@
         1251894
       ],
       "fullName": "Brendan Keefe",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "4812c1c7-d3e2-4532-8c29-b6c20e5305ab",
+      "firstName": "Brendan",
+      "lastName": "McCarthy",
+      "bio": "Brendan McCarthy is the investigations editor for The New York Times' National desk. He previously led the Boston Globe’s Spotlight team, which won a 2021 Pulitzer Prize for investigative reporting for “Blind Spot.” He also served as founding editor of Kentucky Center for Investigative Reporting, which won a Peabody Award for podcasting.",
+      "tagLine": "Investigations editor, The New York Times",
+      "profilePicture": "https://sessionize.com/image/9a2f-400o400o1-HJ9Wy4sWMv1B1W7PKDDjFm.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/brendanmccarthynews/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        1190010
+      ],
+      "fullName": "Brendan McCarthy",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -13526,7 +13550,8 @@
         }
       ],
       "sessions": [
-        1260838
+        1260838,
+        1190010
       ],
       "fullName": "Maggie Mulvihill",
       "categoryItems": [],
