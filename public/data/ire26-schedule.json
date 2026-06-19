@@ -3691,7 +3691,8 @@
       "speakers": [
         "3ba854ea-11ef-49b4-bcce-3b8add8c2dcd",
         "a7492a6e-25f1-4617-8ac7-77707c577b4b",
-        "525ce7b4-881a-4cda-9820-c86a9beffdd1"
+        "525ce7b4-881a-4cda-9820-c86a9beffdd1",
+        "e9b72de2-af78-4463-9c58-8db5195d1531"
       ],
       "categoryItems": [
         441467
@@ -14723,6 +14724,7 @@
       ],
       "sessions": [
         1180685,
+        1265854,
         1180696
       ],
       "fullName": "Nicole Foy",
