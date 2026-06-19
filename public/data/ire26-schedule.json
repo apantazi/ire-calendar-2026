@@ -9536,7 +9536,13 @@
       "tagLine": "ALM Media and the New York Law Journal",
       "profilePicture": null,
       "isTopSpeaker": false,
-      "links": [],
+      "links": [
+        {
+          "title": "Sessionize",
+          "url": "https://sessionize.com/emily-saul",
+          "linkType": "Sessionize"
+        }
+      ],
       "sessions": [
         1182020
       ],
