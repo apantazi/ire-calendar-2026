@@ -6096,7 +6096,7 @@
     {
       "id": "1254899",
       "title": "Introduction to R and RStudio",
-      "description": "Jump into data analysis with R, the powerful open-source programming language. In this class we’ll cover R fundamentals and learn our way around the RStudio interface for using R.\r\n\r\nThis session is good for: People with a basic understanding of data analysis who are ready to go beyond spreadsheets. Attendees will need to bring their own laptop (no tablets).",
+      "description": "Jump into data analysis with R, the powerful open-source programming language. In this class we’ll cover R fundamentals and learn our way around the RStudio interface for using R.\r\n\r\nThis session is good for: People with a basic understanding of data analysis who are ready to go beyond spreadsheets. Attendees will need to bring their own laptop (no tablets).\r\n\r\nIf you need to install R and RStudio on your computer, you can follow our install guide here: bit.ly/ire-install-r",
       "startsAt": "2026-06-21T09:00:00",
       "endsAt": "2026-06-21T10:00:00",
       "isServiceSession": false,
