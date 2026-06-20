@@ -4634,8 +4634,8 @@
       "isPlenumSession": false,
       "speakers": [
         "aaae4c7f-cd12-4cb0-a490-bf1c0f7cc1c9",
-        "003d0504-bfe5-4ff5-b47e-89e8135d4f90",
-        "34fa1ef5-55e6-4b1d-aa1e-7f98d7d35e7d"
+        "34fa1ef5-55e6-4b1d-aa1e-7f98d7d35e7d",
+        "8fd2367b-51fa-4d6f-be9e-eb1923dfd8a1"
       ],
       "categoryItems": [
         441467,
@@ -5607,7 +5607,8 @@
       "speakers": [
         "098c3159-7c48-4c98-8895-bd5f4ca1f972",
         "eec8b8ae-c178-4ede-9bb5-48ae725b1035",
-        "da43c643-5b55-4975-a3e3-62fd12a43d3a"
+        "da43c643-5b55-4975-a3e3-62fd12a43d3a",
+        "063dab5f-6f26-47f9-b3b5-429b9b87d90f"
       ],
       "categoryItems": [
         441467,
@@ -10005,7 +10006,6 @@
         }
       ],
       "sessions": [
-        1260838,
         1238732
       ],
       "fullName": "Gabe Rottman",
@@ -10031,6 +10031,22 @@
         1147892
       ],
       "fullName": "Gabriel Pietrorazio",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "8fd2367b-51fa-4d6f-be9e-eb1923dfd8a1",
+      "firstName": "Gabriel",
+      "lastName": "Rottman",
+      "bio": "Gabe Rottman is the Reporters Committee's vice president of policy, leading the organization's work to advance key policy priorities like the PRESS Act and the Department of Justice news media guidelines. He's a practicing attorney with a focus on novel issues at the intersection of press freedom, newsgathering, and technology.\r\n\r\nRottman comes to RCFP from PEN America, where he opened the organization’s Washington, D.C., office and served as its first Washington director. He also was the deputy director for the Center for Democracy and Technology’s Freedom, Security and Technology Project. At CDT, he led efforts on cybersecurity policy, and worked extensively on electronic surveillance and the rights of security researchers. ",
+      "tagLine": "Attorney and Vice President of Policy, Reporters Committee for Freedom of the Press",
+      "profilePicture": "https://sessionize.com/image/bb55-400o400o1-7SB7cTZwfgJgep1MkZJyMK.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1260838
+      ],
+      "fullName": "Gabriel Rottman",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -11213,12 +11229,13 @@
       "firstName": "Jingnan",
       "lastName": "Huo",
       "bio": "Huo Jingnan is a reporter curious about how people navigate complex information landscapes and all the actors shaping that journey — people that produce and distribute content, people monitoring the content, and people affected by them.\r\n\r\nPreviously, she was an associate producer on NPR's Investigations team. She looked into flood-prone homes sold by the federal government, investigated why face mask guidelines differ between countries early in the COVID-19 outbreak, and helped gauge the federal government's role behind black lung disease's resurgence. The projects she was a part of have won awards including Edward Murrow Award, The National Academies of Sciences, Engineering, and Medicine's Communications award, Silver Gavel Award, and have also been nominated for Emmy Awards and George Foster Peabody awards.\r\n\r\nShe can be reached via encrypted message at _J_H.07 on Signal.",
-      "tagLine": "NPR",
+      "tagLine": "Reporter, NPR",
       "profilePicture": "https://sessionize.com/image/ffa2-400o400o1-Mj5FfV6wzWphSQF8DETqXu.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        1145117
+        1145117,
+        1233123
       ],
       "fullName": "Jingnan Huo",
       "categoryItems": [],
